@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  bash-info:
+    build: ./bash-script
+    container_name: bash-info
+    restart: always
+    environment:
+      - INTERVAL=5
+
+  python-info:
+    build: ./python-script
+    container_name: python-info
+    restart: always
+    environment:
+      - INTERVAL=5
+
