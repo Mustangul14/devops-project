@@ -37,6 +37,10 @@ devops-project/
         ├── docker/          # Role: installs Docker & Compose
         └── deploy/          # Role: copies and runs the project
 
+├── monitoring/
+            |-docker-compose.yml
+            |-prometheus.yml
+
 ## 🚀 How the Project Was Implemented
 
 # 1️⃣ System Monitoring Applications
